@@ -60,19 +60,6 @@
         .fa:hover {
             opacity: 0.7;
         }
-        /*specific color for each icon */
-        /* Facebook */
-        
-        div .fa-facebook {
-            background: #3B5998;
-            color: white;
-        }
-        /* Twitter */
-        
-        div .fa-twitter {
-            background: #55ACEE;
-            color: white;
-        }
         
         #content {
             position: relative;
