@@ -1,3 +1,81 @@
-
-<input type="text" placeholder="email"/>
-<input type="submit" />
+ body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
+        
+        body {
+            overflow: hidden;
+            text-align: center;
+            color: #fff;
+            background-image: url('technole/images/landingimage.png');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+            font-family: "Courier New", Courier, monospace;
+            font-size: 25px;
+        }
+        
+        .fa {
+            padding: 30px;
+            font-size: 40px;
+            width: 20px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+        }
+        /*hover effect*/
+        
+        .fa:hover {
+            opacity: 0.7;
+        }
+        
+        * {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        input[type=text] {
+            width: 130px;
+            -webkit-transition: width 0.4s ease-in-out;
+            transition: width 0.4s ease-in-out;
+        }
+        /* When the input field gets focus, change its width to 100% */
+        
+        input[type=text]:focus {
+            width: 50%;
+        }
+        /* padding in betwwen buttons*/
+        
+        div.fa {
+            padding-top: 10px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+        }
+        /* hover effect */
+        
+        .fa:hover {
+            opacity: 0.7;
+        }
+        /*specific color for each icon */
+        /* Facebook */
+        
+        div .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+        /* Twitter */
+        
+        div .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+        
+        #content {
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
